@@ -79,11 +79,6 @@ public class SystemUnderTest implements Runnable {
 
             this.rpmChannel.addRpm(actualRpm);
         }
-        //step();
-        //this.rpmChannel.addRpm(this.actualRpm);
-        //try  {
-        //    Thread.sleep(20);
-        //} catch (InterruptedException e) {}
     }
 
     public void setRunning(boolean running) {
